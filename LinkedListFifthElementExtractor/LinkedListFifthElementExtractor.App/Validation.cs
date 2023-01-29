@@ -31,7 +31,7 @@ namespace LinkedListFifthElementExtractor.App
                         else
                         {
                             //Extracting the 5th element from the tail
-                            _linkedList.ExtractNode(count);
+                            _linkedList.ExtractNode(); // updated the method signature : remove input count
                             System.Environment.Exit(1);
                         }
 

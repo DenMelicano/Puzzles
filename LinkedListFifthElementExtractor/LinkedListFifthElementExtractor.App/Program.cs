@@ -21,8 +21,7 @@ namespace LinkedListfifthElementExtractor.App
             while(input != "x")
             {
                 input = Console.ReadLine().ToLower(); // converts all sting input to lowercase
-                _validation.InputValidation(input);   // process input for data validation
-                    
+                _validation.InputValidation(input);   // process input for data validation          
             }
 
         }

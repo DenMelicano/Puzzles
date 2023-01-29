@@ -38,7 +38,7 @@ namespace LinkedListFifthElementExtractor.App
         }
 
 
-        public int ExtractNode(int NodeCount)
+        public int ExtractNode()
         {
             LinkedListNode indexer = head;
             int ExtractIndex = 0;
