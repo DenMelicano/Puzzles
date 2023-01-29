@@ -11,7 +11,7 @@
             int _testResults = 0;
             int _expectedResults = 7;
             
-
+            // Create a dummy linked list
             _testLinkedList.AddNodeToFront(1);
             _testLinkedList.AddNodeToFront(2);
             _testLinkedList.AddNodeToFront(3);
