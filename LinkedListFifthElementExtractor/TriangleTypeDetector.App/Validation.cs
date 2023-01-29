@@ -16,7 +16,7 @@ namespace TriangleTypeAnalyzer.App
            if(int.TryParse(data1, out _sideA) && int.TryParse(data2, out _sideB) 
                 && int.TryParse(data3, out _sideC))
             {
-                if ( _sideA <= 0 || _sideB <= 0 || _sideC <= 0 )
+                if ( _sideA <= 0 || _sideB <= 0 || _sideC <= 0 ) // making sure that the data input is more than zero.
                 {
                     Console.WriteLine("\nError");
                     return false;
