@@ -6,8 +6,7 @@
         public void ShouldReturnFifthElement()
         {
             //Arrange
-            LinkedList _testLinkedList = new LinkedList();
-            var requiredCountFromTail = 5;
+            LinkedList _testLinkedList = new LinkedList();       
             int _testResults = 0;
             int _expectedResults = 7;
             
@@ -25,7 +24,7 @@
             _testLinkedList.AddNodeToFront(11);
 
             //Act
-            _testResults = _testLinkedList.ExtractNode(requiredCountFromTail);
+            _testResults = _testLinkedList.ExtractNode();
 
 
             //Assert
