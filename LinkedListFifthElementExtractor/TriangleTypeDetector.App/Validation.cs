@@ -15,21 +15,13 @@ namespace TriangleTypeAnalyzer.App
            // Checking if the data input is an integer or not
            if(int.TryParse(data1, out _sideA) && int.TryParse(data2, out _sideB) 
                 && int.TryParse(data3, out _sideC))
-            {
-                if ( _sideA <= 0 || _sideB <= 0 || _sideC <= 0 ) // making sure that the data input is more than zero.
-                {
-                    Console.WriteLine("\nError");
-                    return false;
-                }
-                else
-                {
-                    _triangleTypeAnalyzer.AnalyzeSides(_sideA, _sideB, _sideC); 
-                    return true;
-                }                   
+            {   
+                _triangleTypeAnalyzer.AnalyzeSides(_sideA, _sideB, _sideC); 
+                return true;                                
             }
             else
             {
-                Console.WriteLine("\nError");
+                Console.WriteLine("\nInvalid Value");
                 return false;
             }
         }
