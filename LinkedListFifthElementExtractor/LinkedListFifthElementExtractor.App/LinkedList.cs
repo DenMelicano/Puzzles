@@ -6,7 +6,7 @@ namespace LinkedListFifthElementExtractor.App
 {
     public class LinkedList
     {
-        int count;
+        public int count;
         LinkedListNode head;
 
         public LinkedList()
@@ -17,9 +17,10 @@ namespace LinkedListFifthElementExtractor.App
 
         public void AddNodeToFront(int data)
         {
-            LinkedListNode node = new LinkedListNode(data);
+            LinkedListNode node = new LinkedListNode(data); //TODO make test
             node.next = head;
             head = node;
+            count++;
             
         }
 

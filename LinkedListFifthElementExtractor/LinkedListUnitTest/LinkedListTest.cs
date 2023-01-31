@@ -1,6 +1,6 @@
 ﻿namespace LinkedListFifthElementExtractor.App
 {
-    public class LinkedListExtractorTest
+    public class LinkedListTest
     {
         [Fact]
         public void ShouldReturnFifthElement()
@@ -31,5 +31,26 @@
             Assert.Equal(_expectedResults, _testResults);
 
         }
+
+        [Fact]
+        public void ShouldReturnTheCorrectNodeCount()
+        {
+            //Arrange
+            LinkedList _linkedList = new LinkedList();
+            int _nodeCount = 0;
+            int _expectedNodeCount = 5;
+
+            //Act
+            _linkedList.AddNodeToFront(1);
+            _linkedList.AddNodeToFront(2);
+            _linkedList.AddNodeToFront(3);
+            _linkedList.AddNodeToFront(4);
+            _linkedList.AddNodeToFront(5);
+            _nodeCount = _linkedList.count;
+
+            //Assert
+            Assert.Equal(_expectedNodeCount, _nodeCount);
+        }
+
     }
 }
