@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleTypeAnalyzerUnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordReversing.App", "WordReversing.App\WordReversing.App.csproj", "{CD52AB57-F80A-44C7-ABD3-275F4D4004F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordReversingTest", "WordReversingTest\WordReversingTest.csproj", "{DD90CEAF-4C0D-4A94-83E0-83253DEA2F8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CD52AB57-F80A-44C7-ABD3-275F4D4004F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD52AB57-F80A-44C7-ABD3-275F4D4004F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD52AB57-F80A-44C7-ABD3-275F4D4004F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD90CEAF-4C0D-4A94-83E0-83253DEA2F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD90CEAF-4C0D-4A94-83E0-83253DEA2F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD90CEAF-4C0D-4A94-83E0-83253DEA2F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD90CEAF-4C0D-4A94-83E0-83253DEA2F8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
