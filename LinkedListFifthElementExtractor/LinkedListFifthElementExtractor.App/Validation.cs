@@ -32,7 +32,7 @@ namespace LinkedListFifthElementExtractor.App
                         {
                             //Extracting the 5th element from the tail
                             _linkedList.ExtractNode(); // updated the method signature : remove input count
-                            System.Environment.Exit(1);
+                            System.Environment.Exit(0);
                         }
 
                     }
